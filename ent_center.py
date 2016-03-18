@@ -17,4 +17,6 @@ lebowski = movie.Movie("The Big Lewbowski",
 
 movies = [toy_story, avatar, lebowski]
 
+# Here we pass our movie instances array to the imported fresh_tomatoes
+# which then generates an html page and opens it in the browser
 fresh_tomatoes.open_movies_page(movies)
